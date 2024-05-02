@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.w{
+    @apply grid grid-cols-6 gap-1 p-4 mt-4 lg:grid-cols-10;
+}
+.c{
+    @apply bg-purple-600 rounded-md text-white p-1 hover:bg-purple-400;
+}
+.letter{
+
+    width: 2rem;
+        
+        height: 30px;
+      
+      
+        font-weight: 800;
+     
+        margin-right: 5px;
+        /* Add space between letters */
+        text-align: center;
+        /* Center align text */
+        font-size: 30px;
+        
+        line-height: 20px;
+    
+  
+}
+.worddisplay{
+    @apply flex flex-row justify-center mb-4;
+   
+}
