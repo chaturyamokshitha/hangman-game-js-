@@ -592,16 +592,24 @@ video {
   position: absolute;
 }
 
-.m-6 {
-  margin: 1.5rem;
+.m-8 {
+  margin: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.ml-0 {
+  margin-left: 0px;
 }
 
 .ml-14 {
   margin-left: 3.5rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
 }
 
 .mt-4 {
@@ -666,6 +674,10 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.p-14 {
+  padding: 3.5rem;
 }
 
 .p-4 {

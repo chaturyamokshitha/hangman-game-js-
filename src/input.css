@@ -5,7 +5,7 @@
     @apply grid grid-cols-6 gap-1 p-4 mt-4 lg:grid-cols-10;
 }
 .c{
-    @apply bg-purple-600 rounded-md text-white p-1 hover:bg-purple-400;
+    @apply p-1 text-white bg-purple-600 rounded-md hover:bg-purple-400;
 }
 .letter{
 
